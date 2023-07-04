@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T07:18:33.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.5.2" etag="DBzeybGfokGOrOAeH9tL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T07:19:29.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="sls3oUKNzRTR4bSNAZHP" version="21.5.2" type="github">
   <diagram name="Page-1" id="WJR7h5naoRagfO-UuAy7">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="180" width="640" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-2" value="Item 01" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-3" value="Remove item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="265" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-4" value="Item 02" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-5" value="Item 03" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-15" value="Remove item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="345" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTMc8PcQ7-544bPOlcrf-16" value="Remove item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="425" width="75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
