@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T11:01:41.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.5.2" etag="D-Ao2q9tOIEd9Y_LxEY6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T11:06:58.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="SA45Qof9445mJ_QOhAiB" version="21.5.2" type="github">
   <diagram name="Page-1" id="Fku0YhaBDF12Z1hG8BYR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="280" width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-1" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-4">
+          <mxGeometry width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-3" value="Back End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-4">
+          <mxGeometry x="440" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-8" value="Key Cloak" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-4">
+          <mxGeometry x="80" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-9" value="Main Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-4">
+          <mxGeometry x="360" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="110" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-6" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-5">
+          <mxGeometry width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-7" value="Front End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-5">
+          <mxGeometry x="340" y="100" width="90" height="13.33" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-10" value="UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="LdVCUPChRzxCTxgJ-CD4-5">
+          <mxGeometry x="175" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LdVCUPChRzxCTxgJ-CD4-11" value="Cloud DB" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
