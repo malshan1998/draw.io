@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T09:36:22.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.5.2" etag="Igm78nZOi4kMswxbEfyU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T09:37:27.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="imOrQyyWt4dWaY2xqnAk" version="21.5.2" type="github">
   <diagram name="Page-1" id="FgSSYm-w5xesZO3jWyNl">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="120" width="640" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="170" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-4" value="&lt;div align=&quot;left&quot;&gt;*****&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-5" value="&lt;div align=&quot;left&quot;&gt;*****&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-6" value="Seller Registration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-7" value="Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-8" value="Confirm Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-9" value="email" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HAC2JCPj5zhd9w-cOnVW-10" value="More seller details&lt;br&gt;(address, etc.)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="270" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
