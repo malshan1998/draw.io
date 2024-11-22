@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Page-1" id="0dvTqoQZgNPwvWySJ_LF">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="shjbX_Em7bWSXekvOMF--1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="255" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="shjbX_Em7bWSXekvOMF--15" target="shjbX_Em7bWSXekvOMF--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--15" value="&lt;div&gt;Set Company, Location,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Review Date&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="shjbX_Em7bWSXekvOMF--16" target="shjbX_Em7bWSXekvOMF--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--16" value="Fetch data for date range, locationID&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;load (useEffect)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="shjbX_Em7bWSXekvOMF--17" target="shjbX_Em7bWSXekvOMF--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--17" value="Update state variables (eg: meta)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="shjbX_Em7bWSXekvOMF--19" target="shjbX_Em7bWSXekvOMF--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--19" value="Update &#39;Section&#39; components" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="shjbX_Em7bWSXekvOMF--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="shjbX_Em7bWSXekvOMF--1" target="shjbX_Em7bWSXekvOMF--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
