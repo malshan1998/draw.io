@@ -27,7 +27,7 @@
         <mxCell id="lFeTr_LjyvqDbciB7zKH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-11" target="lFeTr_LjyvqDbciB7zKH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lFeTr_LjyvqDbciB7zKH-11" value="&lt;div&gt;Send PDF data and inspection_id to Persistence service&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-11" value="&lt;div&gt;Send PDF data,&amp;nbsp; inspection_id and file name to Persistence service&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="180" y="300" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lFeTr_LjyvqDbciB7zKH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-12" target="lFeTr_LjyvqDbciB7zKH-13">
@@ -50,6 +50,92 @@
         </mxCell>
         <mxCell id="lFeTr_LjyvqDbciB7zKH-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="220" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-25" target="lFeTr_LjyvqDbciB7zKH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-25" value="Click &#39;Download&#39; button" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-27" target="lFeTr_LjyvqDbciB7zKH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-27" value="Send inspection_id and file name to Persistence service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-29" target="lFeTr_LjyvqDbciB7zKH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-29" value="Get the URL from S3" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-31" target="lFeTr_LjyvqDbciB7zKH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-31" value="Send URL to FE" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-33" value="Download" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-36" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-38" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-41" target="lFeTr_LjyvqDbciB7zKH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-41" value="Click &#39;Delete&#39; button" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-43" target="lFeTr_LjyvqDbciB7zKH-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-43" value="Send inspection_id and file name to Persistence service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-45" target="lFeTr_LjyvqDbciB7zKH-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-45" value="Delete from S3" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-47" target="lFeTr_LjyvqDbciB7zKH-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-47" value="Send response to FE" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lFeTr_LjyvqDbciB7zKH-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-49" value="Remove the file name displayed on FE" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lFeTr_LjyvqDbciB7zKH-50" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
